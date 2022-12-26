@@ -1,0 +1,32 @@
+.page {
+  background-color: #2A2C2F;
+  font-family: url();
+}
+
+.header {
+
+}
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+    background-image: url(./images/sprint-3-images/header-logo.svg);
+}
+
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+}
+
+.lead__title {
+    
+}
+
+.lead__image {
+    width: 984px;
+    height: 615px;
+}
