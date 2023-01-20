@@ -1,0 +1,9 @@
+.place__link {
+    color: #fff;
+    text-decoration-line: underline;
+    font-family: 'Inter';
+}
+
+.place__link:hover {
+    opacity: 0.7;
+}
