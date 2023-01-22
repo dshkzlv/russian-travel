@@ -8,7 +8,7 @@
     margin-right: clamp(12px, 50%, 48px);
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0;
+    padding-top: 92px;
 }
 
 @media screen and (max-width: 768px) {
@@ -21,6 +21,9 @@
 
 @media screen and (max-width: 320px) {
     .photo-grid {
-        padding: 64px 16px 0;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, min-content);
+        padding: 64px 0;
+        margin: 0 16px;
     }
 }

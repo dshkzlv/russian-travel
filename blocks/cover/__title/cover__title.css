@@ -14,8 +14,10 @@
 @media screen and (max-width: 320px) {
     .cover__title {
         max-width: 288px;
+        min-height: 70px;
         margin: 0 auto 16px;
         font-size: 32px;
         line-height: 35px;
+        overflow-wrap: break-word;
     }
 }

@@ -28,6 +28,8 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        padding: 50px;
+        padding-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 320px;
     }
 }
