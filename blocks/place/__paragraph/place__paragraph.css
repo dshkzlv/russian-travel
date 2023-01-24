@@ -4,13 +4,19 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    width: 484px;
+    max-width: 484px;
+    width: 100%;
     margin: 0 0 26px 0;
+}
+
+.place__paragraph:last-of-type {
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
-        width: 456px;
+        max-width: 456px;
+        width: 100%;
     }
 }
 
@@ -19,22 +25,13 @@
         max-width: 352px;
         margin: 0 0 25px 0;
         font-size: 16px;
-        line-height: 163%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        width: 288px;
-        font-size: 16px;
-        line-height: 26px;
+        max-width: 288px;
+        width: 100%;
         padding: 0 16px 0;
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__paragraph:last-of-type {
-        margin: 0;
     }
 }

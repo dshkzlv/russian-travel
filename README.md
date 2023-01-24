@@ -3,6 +3,7 @@
 ### Обзор
 * Описание
 * Figma
+* Проект
 
 **Описание**
 
@@ -21,3 +22,6 @@ Grid Layout,
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 Так проект должен выглядеть на самых распространённых разрешениях экранов.
 
+**Проект**
+
+* [Ссылка на сам проект](https://github.com/dshkzlv/russian-travel) 

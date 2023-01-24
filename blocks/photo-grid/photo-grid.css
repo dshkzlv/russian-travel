@@ -1,5 +1,4 @@
 .photo-grid {
-    min-height: calc(100vh - 48px);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: repeat(3, 1fr);
