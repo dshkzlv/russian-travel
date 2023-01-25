@@ -33,6 +33,5 @@
         grid-template-columns: min-content;
         grid-template-rows: repeat(2, auto);
         row-gap: 32px;
-        min-width: 
     }
 }
