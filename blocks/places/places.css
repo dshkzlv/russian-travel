@@ -2,8 +2,10 @@
     display: grid;
     max-width: 984px;
     padding: 0;
-    margin: 92px auto;
+    margin-top: 92px;
+    margin: 0;
     justify-content: center;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -16,6 +18,8 @@
 @media screen and (max-width: 320px) {
     .places {
         margin-top: 64px;
-        width: 100%;
+        row-gap: 50px;
+        min-width: minmax(288px 320px);
+
     }
 }

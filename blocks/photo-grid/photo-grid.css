@@ -5,9 +5,9 @@
     gap: clamp(12px, 50%, 16px);
     margin-left: clamp(12px, 50%, 48px);
     margin-right: clamp(12px, 50%, 48px);
-    margin-top: 0;
+    margin-top: 92px;
     margin-bottom: 0;
-    padding-top: 92px;
+    padding: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -22,7 +22,12 @@
     .photo-grid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, min-content);
-        padding: 64px 0;
-        margin: 0 16px;
+        padding: 64px 0 0;
+        margin: auto;
+        row-gap: 12px;
+    }
+    .photo-grid:last-of-type {
+        
+        padding: 0;
     }
 }
