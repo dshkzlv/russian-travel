@@ -24,4 +24,4 @@ Grid Layout,
 
 **Проект**
 
-* [Ссылка на сам проект](https://github.com/dshkzlv/russian-travel) 
+* [Ссылка на сам проект](https://dshkzlv.github.io/russian-travel/)

@@ -2,6 +2,7 @@
     color: #fff;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 54px;
+    font-style: normal;
     line-height: 58px;
     font-weight: 900;
     margin: 0;
@@ -9,7 +10,7 @@
 
 @media screen and (max-width: 320px) {
     .intro__title {
-        width: calc(100% - 2 * 16px);
-        margin: 0 16px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
