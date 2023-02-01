@@ -14,10 +14,6 @@
     position: relative;
 }
 
-.cover__title::after {
-    opacity: 0;
-}
-
 @media screen and (max-width: 320px) {
     .cover__title {
         max-width: 288px;
