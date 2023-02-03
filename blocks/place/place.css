@@ -1,35 +1,28 @@
 .place {
     display: grid;
     grid-template-columns: 460px auto;
-    grid-template-rows: repeat(2, auto); /*repeat(auto-fill, minmax(2, 1fr));*/
+    grid-template-rows: repeat(2, auto);
     margin: 0;
     padding: 0;
     gap: 48px 40px;
-}
-
-.place:first-of-type {
-    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
         grid-template-columns: 440px auto;
         column-gap: 32px;
-        padding: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
         column-gap: 28px;
-        /*padding: 72px;*/
         grid-template-columns: 340px auto;
     }
 }
 
 @media screen and (max-width: 630px) {
     .place {
-        padding-top: 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, auto);
         row-gap: 32px;

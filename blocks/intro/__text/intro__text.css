@@ -13,13 +13,5 @@
 @media screen and (max-width: 768px) {
     .intro__text {
         max-width: 720px;
-        /*width: 100%;*/
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .intro__text {
-        /*max-width: 288px;*/
-        line-height: 26px;
     }
 }

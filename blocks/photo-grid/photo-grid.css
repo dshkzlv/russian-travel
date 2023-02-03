@@ -10,16 +10,13 @@
 @media screen and (max-width: 1024px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 48px;
-        margin-right: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
         grid-template-rows: repeat(2, min-content);
-        margin-left: 24px;
-        margin-right: 24px;
+        margin: 88px 24px 0;
     }
 }
 
